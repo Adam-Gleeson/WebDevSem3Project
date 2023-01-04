@@ -1,0 +1,14 @@
+.centre{
+text-align: center;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightblue;
+    color: black;
+}
+header{
+    background-color: lightcyan;
+}
+main{
+    margin-left: 43%;
+    }

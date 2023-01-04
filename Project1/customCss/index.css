@@ -1,0 +1,16 @@
+.size{
+   column-count: 2;
+   margin: 20px;
+}
+#position{
+    margin-right: 5%;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightblue;
+    color: black;
+}
+header{
+    background-color: lightcyan;
+}
+

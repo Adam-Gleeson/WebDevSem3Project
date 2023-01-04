@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="customCss/login.css">
+
+    <title>Fine Funiture</title>
+  </head>
+  <header>
+    <h1 class="text-center">Fine Funiture</h1>
+    <ul class="btn btn-primary" style="float: right; margin-right: 2%;">
+      <a href="userDetails.html" style="color: white;">Account</a>
+   </ul>
+    <ul class="btn btn-primary" style="float: right; margin-right: 2%;">
+          <a href="cart.html" style="color: white;">Cart</a>
+       </ul>
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="login.html">Login</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="shop.html">Shop Now</a>
+      </li>
+    </ul>
+  </header>
+  <body>
+    <main style="margin-left: 2%;">
+      <h1>Checkout</h1>
+      <div class="alert alert-success d-none" role="alert" id="buySuccess">Thank you for the purchase, an email has been sent with deilivery dates.
+    </div>
+    <div class="row">
+        <div class="col-sm col-md-4">
+            <form name="buy" id="user-buy" method="get">
+            <div class="form-group">
+                <label for="NameID">Name</label>
+                <input type="text" class="form-control" id="NameID" name="Name" value="John Joe" required>
+            </div>
+            <div class="form-group">
+                <label for="AddressID">Address1</label>
+                <input type="text" class="form-control" id="Address1ID" name="Address1ID" value="23 Street" required>
+            </div>
+            <div class="form-group">
+                <label for="AddressID">Address2</label>
+                <input type="text" class="form-control" id="Address2ID" name="Address2ID" value="Mayo" required>
+            </div>
+            <div class="form-group">
+                <label for="AddressID">Address3</label>
+                <input type="text" class="form-control" id="Address3ID" name="Address3ID" value="Ireland" required>
+            </div>
+            <!--Payment-->
+            <h1>Payment Details</h1>
+            <div class="form-group">
+                <label for="CardName">Card Name</label>
+                <input type="text" class="form-control" id="CardName" name="CardName" value="John Joe" required>
+            </div>
+            <div class="form-group">
+                <label for="CardNo">Card Number</label>
+                <input type="text" class="form-control" id="CardNo" name="CardNo" value="3333 4444 5555 6666" required>
+            </div>
+            <div class="form-group">
+                <label for="CVC">CVC</label>
+                <input type="text" class="form-control" id="CVC" name="CVC" value="243" required>
+            </div>
+
+            <div class="nt-3 form-group">
+                <input type="submit" class="btn btn-primary" value="Buy Now" id="buyNow">
+            </div>
+        </form>
+        </div>
+    </div>
+  </main>
+    <script src="js/login.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>

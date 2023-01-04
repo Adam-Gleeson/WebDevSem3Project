@@ -1,0 +1,16 @@
+#gap{
+    margin-top: 5%;
+}
+
+img{
+    height: 20%;
+    width: 15%;
+}
+header{
+    background-color: lightcyan;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightblue;
+    color: black;
+}
